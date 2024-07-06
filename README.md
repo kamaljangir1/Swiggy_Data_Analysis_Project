@@ -34,8 +34,8 @@ This project involves analyzing and cleaning the dataset provided by Swiggy. Swi
    - Drop unnecessary columns that do not contribute to the analysis.
    - Drop unnecessary tables that are not required for further analysis.
 
-3. **💾 Store Processed Data**
-   - Save the cleaned and formatted dataset into the system for further analysis and visualization.
+3. **💾 Data Visualization**
+   - Create various visualizations to uncover trends and insights.
 
 ## 📊 Data Overview
 - The dataset consists of 5 tables: Food, Menu, Orders, Orders Type, Restaurant, and Users.
@@ -46,10 +46,11 @@ This project involves analyzing and cleaning the dataset provided by Swiggy. Swi
 - Identify and handle null values in each table.
 - Ensure that no critical data is lost in the process.
 
-## 🛠️ Data Formatting Steps
-- Change column names to be more intuitive and user-friendly.
-- Remove columns that are deemed unnecessary for the analysis.
-- Remove tables that do not add value to the analysis.
+## 📊 Power BI Steps
+- Load the cleaned data into Power BI.
+- Use Power Query to make necessary transformations such as merging tables and extracting date components.
+- Establish relationships between tables using primary and foreign keys.
+- Create various visualizations to uncover trends and insights.
 
-## 💾 Storing Cleaned Data
-- After cleaning and formatting, store the processed data back into the system for further use.
+## 🔍 Insights
+- Found useful insights such as vegetarian options leading to 122 million in sales, 7.2% higher than non-vegetarian; the top 10% of customers accounting for 80% of sales; and Tirupati city recording the highest order amount at 43 million.
